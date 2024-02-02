@@ -6,7 +6,7 @@ module.exports = {
       colors: {
         'licorice': '#0D0106',
         'charcoal': '#1f293a',
-        'cloudy-day': '#FBFBFF'
+        'cloudy-day': '#FBFBFF',
       }
     },
   },

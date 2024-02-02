@@ -3,6 +3,17 @@ import React from 'react'
 import { FaGithub } from 'react-icons/fa'
 import { FaLinkedin } from 'react-icons/fa'
 
+import { FaPython } from 'react-icons/fa'
+import { SiDjango } from "react-icons/si";
+
+import { RiJavascriptFill } from 'react-icons/ri'
+import { TbBrandReact } from "react-icons/tb";
+
+import { DiRuby } from "react-icons/di";
+import { SiRubyonrails } from "react-icons/si";
+
+import { FaArrowRight } from "react-icons/fa6";
+
 const fullSizeIcon = { fontSize:'1.5em' }
 
 const Hero = () => {
@@ -15,7 +26,8 @@ const Hero = () => {
             Hi, <br /> I am a <span className='text-accent-feature'>S</span>amuel<br /> Software Engineer
           </h1>
           <p className='py-5 text-left'>
-            <code>
+            {/* Desktop */}
+            <code className='code-desktop max-sm:hidden'>
               &#123;
               <br />
               &nbsp; 'languages': ['<span className='code-text'>javascript</span>', '<span className='code-text'>python</span>', '<span className='code-text'>ruby</span>', '<span className='code-text'>c/c++</span>'], <br />
@@ -23,8 +35,29 @@ const Hero = () => {
               <br />
               &#125;
             </code>
+            {/* Mobile */}
+            <code className='sm:max-2xl:hidden'>
+              &#123;
+              <br />
+              <div>
+                &nbsp; 'lang': [
+                  <span className='inline-block item-center'><RiJavascriptFill size={20} /></span>, 
+                  <span className='inline-block center'><FaPython size={20} /></span>, 
+                  <span className='inline-block item-center'> <DiRuby size={20} /></span>],
+                  <span className='font-extrabold'>C++</span>]
+                  <br />
+              </div>
+              <div>
+                &nbsp; 'frmwrk': [
+                  <span className='inline-block'><TbBrandReact size={20} /></span>, 
+                  <span className='inline-block'><SiRubyonrails size={25} /></span>, 
+                  <span className='inline-block'><SiDjango /></span>, 
+                  <span className='font-bold'>DRF</span>]
+              </div>
+              &#125;
+            </code>
           </p>
-          <div  className='flex py-5 space-x-4'>
+          <div className='flex py-5 space-x-4'>
             <a href="https://github.com/Samuel-DeSantis" target='_blank' rel='noreferrer noopener'><FaGithub style={fullSizeIcon} alt='Github'/></a>
             <a href="https://www.linkedin.com/in/samuel-i-desantis/" target='_blank' rel='noreferrer noopener'><FaLinkedin style={fullSizeIcon} alt='LinkedIn'/></a>
           </div>

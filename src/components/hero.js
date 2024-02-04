@@ -43,7 +43,7 @@ const Hero = () => {
                 &nbsp; 'lang': [
                   <span className='inline-block item-center'><RiJavascriptFill size={20} /></span>, 
                   <span className='inline-block center'><FaPython size={20} /></span>, 
-                  <span className='inline-block item-center'> <DiRuby size={20} /></span>],
+                  <span className='inline-block item-center'> <DiRuby size={20} /></span>,
                   <span className='font-extrabold'>C++</span>]
                   <br />
               </div>

@@ -58,10 +58,9 @@ const Hero = () => {
             </code>
           </p>
           <div className='flex py-5 space-x-4'>
-            <a href="https://github.com/Samuel-DeSantis" target='_blank' rel='noreferrer noopener'><FaGithub style={fullSizeIcon} alt='Github'/></a>
-            <a href="https://www.linkedin.com/in/samuel-i-desantis/" target='_blank' rel='noreferrer noopener'><FaLinkedin style={fullSizeIcon} alt='LinkedIn'/></a>
+            <a href="https://github.com/Samuel-DeSantis" target='_blank' rel='noreferrer noopener'><FaGithub className='link' style={fullSizeIcon} alt='Github'/></a>
+            <a href="https://www.linkedin.com/in/samuel-i-desantis/" target='_blank' rel='noreferrer noopener'><FaLinkedin className='link' style={fullSizeIcon} alt='LinkedIn'/></a>
           </div>
-
         </div>
       </div>
     </section>

@@ -1,7 +1,7 @@
 import React from 'react'
-import RoRBcryptAuth from '../assets/RoR_Bcrypt_Auth.png'
-import JSClosest from '../assets/JS_Closest.png'
-import FetchAPIExample from '../assets/Fetch_API_Ex.png'
+import RoRBcryptAuth from '../assets/blog-photos/RoR_Bcrypt_Auth.png'
+import JSClosest from '../assets/blog-photos/JS_Closest.png'
+import FetchAPIExample from '../assets/blog-photos/Fetch_API_Ex.png'
 
 const Blog = () => {
 
@@ -34,7 +34,7 @@ const Blog = () => {
           {posts.map( item => {
             return (
               <a href={ item.url } target='_blank' rel='noreferrer noopener' className='blog-link p-2 rounded-lg text-charcoal font-bold bg-cloudy-day'>
-                <img src={ item.img } alt={ item.title } className='pb-3' />
+                <img src={ item.img } alt={ item.title } className='pt-5 pb-3' />
                 <h3 className='py-2 text-2xl border-t-[5px] border-charcoal'>{ item.title }</h3>
               </a>
             )

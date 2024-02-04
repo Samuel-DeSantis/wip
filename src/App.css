@@ -46,6 +46,10 @@ nav li a {
   @apply px-4 py-5 text-lg;
 }
 
+.mobile-link {
+  margin: 10px;
+}
+
 .link:hover {
   color: #60E1E0;
 }
@@ -86,7 +90,7 @@ h1 {
 }
 
 .blog-link:hover {
-  background-color: #60E1E0;
+  background-color: #dcfefe;
 }
 
 .to-top {

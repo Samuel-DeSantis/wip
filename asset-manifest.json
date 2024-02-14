@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/static/css/main.db18fcfa.css",
+    "main.js": "/static/js/main.cfbbe736.js",
+    "static/media/ClimbingLogger-main.png": "/static/media/ClimbingLogger-main.be2f8fbb95c63d39f05e.png",
+    "static/media/ClimbingLogger-nav.png": "/static/media/ClimbingLogger-nav.05500f01c8d6880dce66.png",
+    "static/media/ClimbingLogger-list.png": "/static/media/ClimbingLogger-list.6817e371b4cae444bfb0.png",
+    "static/media/smaller_image.jpeg": "/static/media/smaller_image.a833ca9dd83824e9c6e7.jpeg",
+    "static/media/ClimbingLogger-form.png": "/static/media/ClimbingLogger-form.40a660700d99251e3c79.png",
+    "static/media/RoR_Bcrypt_Auth.png": "/static/media/RoR_Bcrypt_Auth.8f9040da87bafd3110ad.png",
+    "static/media/Resume - Software Engineer - 12-7.pdf": "/static/media/Resume - Software Engineer - 12-7.582e02efedbf5d03c9af.pdf",
+    "static/media/JS_Closest.png": "/static/media/JS_Closest.4e942c6c4f3813cb49c6.png",
+    "static/media/Fetch_API_Ex.png": "/static/media/Fetch_API_Ex.f16a0d6e30f5c00f45c4.png",
+    "static/media/message-board-throwback.png": "/static/media/message-board-throwback.06acdd60fb3f4bf2ac45.png",
+    "index.html": "/index.html",
+    "main.db18fcfa.css.map": "/static/css/main.db18fcfa.css.map",
+    "main.cfbbe736.js.map": "/static/js/main.cfbbe736.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.db18fcfa.css",
+    "static/js/main.cfbbe736.js"
+  ]
+}

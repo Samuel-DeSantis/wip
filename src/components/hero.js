@@ -12,8 +12,6 @@ import { TbBrandReact } from "react-icons/tb";
 import { DiRuby } from "react-icons/di";
 import { SiRubyonrails } from "react-icons/si";
 
-import { FaArrowRight } from "react-icons/fa6";
-
 const fullSizeIcon = { fontSize:'1.5em' }
 
 const Hero = () => {
@@ -36,7 +34,7 @@ const Hero = () => {
               &#125;
             </code>
             {/* Mobile */}
-            <code className='sm:max-2xl:hidden'>
+            <code className='md:hidden'>
               &#123;
               <br />
               <div>

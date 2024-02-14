@@ -2,25 +2,7 @@ import React, { useState } from "react";
 import { AiOutlineMenu, AiOutlineClose } from "react-icons/ai";
 import { FaArrowCircleUp } from "react-icons/fa";
 import Resume from '../assets/Resume - Software Engineer - 12-7.pdf'
-
-const navLinks = [
-  { 
-    href: '/#about',
-    name: 'About'
-  },
-  { 
-    href: '/#projects',
-    name: 'Projects'
-  },
-  { 
-    href: '/#blog',
-    name: 'Blog'
-  },
-  { 
-    href: '/#contact',
-    name: 'Contact'
-  },
-]
+import { navLinks } from "./data/navLinks";
 
 const Header = () => {
   const [toggle, setToggle] = useState(false);
@@ -40,7 +22,7 @@ const Header = () => {
             { navLinks.map( link => {
               return (
                 <li>
-                  <a href={ link.href }>{ link.name }</a>
+                  <a href={ link.href } className="link">{ link.name }</a>
                 </li>
               )
             })}

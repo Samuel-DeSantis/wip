@@ -1,31 +1,5 @@
 import React from 'react'
-
-const constProjects = [
-  {
-    img: '1',
-    title: '2',
-    description: '3',
-    code: '4'
-  },
-  {
-    img: '',
-    title: '',
-    description: '',
-    code: ''
-  },
-  {
-    img: '',
-    title: '',
-    description: '',
-    code: ''
-  },
-  {
-    img: '',
-    title: '',
-    description: '',
-    code: ''
-  },
-]
+import { projectList } from './data/projectList'
 
 const Projects = () => {
 
@@ -41,21 +15,15 @@ const Projects = () => {
         <div className='about-img'></div>
       </div>
       <div className='projects container mx-auto grid md:grid-cols-2 gap-10'>
-        {constProjects.map( ( project, index ) => {
+        {projectList.map( ( project, index ) => {
           return (
-            <div className='relative' key={index}>
+            <a href={ project.github } className='relative border rounded-2xl bg-cloudy-day px-4 pt-4' target='_blank' rel='noreferrer noopener' key={index}>
+              <h2 className='text-2xl font-bold text-charcoal text-center pb-3'>{ project.title }</h2>
               <img src={ project.img } alt={ project.title } />
-              <div className='flex absolute left-0 right-0 top-[13px] bottom-0 mx-auto w-[90%]  h-[90%]  bg-primary  opacity-0 duration-500 justify-center flex-col hover:opacity-100'>
-                <p></p>
-                <div>
-                  <a href=""></a>
-                  <a href=""></a>
-                </div>
-              </div>
-            </div>
-          )
-        })}
-
+              <p className='text-charcoal pt-4'>{ project.description }</p>
+              <p className='text-charcoal py-4'>Built with: { project.technologies }</p>
+            </a>
+        )})}
       </div>
     </section>
   )
